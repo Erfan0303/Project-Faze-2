@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1657461757 source:f:\sut\c programing\project_faze_2\twitter\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
