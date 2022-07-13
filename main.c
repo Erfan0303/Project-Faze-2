@@ -518,7 +518,7 @@ int main()
             fscanf(reply_userp,"%d", &(reply+i)->user_id);
             fscanf(reply_checkp,"%d", &(reply+i)->check);
             fscanf(reply_twitp,"%d", &(reply+i)->twit_id);
-            fscanf(replyp,"%s", &(reply+i)->reply);
+            fgets((reply+i)->reply, 100, replyp);
         }
         fclose(reply_userp);
         fclose(reply_checkp);
